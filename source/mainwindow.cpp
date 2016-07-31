@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "header/mainwindow.h"
 #include <QApplication>
 
 static int a = 20;
@@ -261,7 +261,7 @@ QString MainWindow::showTime()//获取系统时间
 
 bool MainWindow::eventFilter(QObject *obj, QEvent *e)
 {
-    Q_ASSERT (obj == tein) ;
+//    Q_ASSERT (obj == tein) ;
     if (e ->type() == QEvent :: KeyPress )
     {
        QKeyEvent *event = static_cast <QKeyEvent * > (e ) ;

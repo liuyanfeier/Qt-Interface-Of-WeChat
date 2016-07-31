@@ -1,4 +1,4 @@
-#include "textedit.h"
+#include "header/textedit.h"
 
 #include <QFile>
 #include <QDebug>

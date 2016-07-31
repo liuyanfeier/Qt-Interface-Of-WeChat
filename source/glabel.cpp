@@ -1,5 +1,5 @@
-#include "glabel.h"
-#include "readxml.h"
+#include "header/glabel.h"
+#include "header/readxml.h"
 
 #include <QPen>
 #include <QDebug>

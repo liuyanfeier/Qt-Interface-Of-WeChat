@@ -1,4 +1,4 @@
-#include "myQlable.h"
+#include "header/myQlable.h"
 
 myQLabel::myQLabel(QWidget *parent)
     :QLabel(parent)

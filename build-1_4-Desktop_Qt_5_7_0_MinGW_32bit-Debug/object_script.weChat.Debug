@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\textedit.o
+./debug\glabel.o
+./debug\myqlable.o
+./debug\chatemotion.o
+./debug\frame.o
+./debug\qrc_res.o
+./debug\moc_mainwindow.o
+./debug\moc_textedit.o
+./debug\moc_glabel.o
+./debug\moc_myqlable.o
+./debug\moc_chatemotion.o
+./debug\moc_frame.o
+);

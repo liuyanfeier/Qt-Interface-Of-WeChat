@@ -1,4 +1,4 @@
-#include "chatemotion.h"
+#include "header/chatemotion.h"
 #include "ui_chatemotion.h"
 #include <QHBoxLayout>
 

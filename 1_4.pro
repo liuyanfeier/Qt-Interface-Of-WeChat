@@ -13,23 +13,22 @@ TARGET = weChat
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    textedit.cpp \
-    glabel.cpp \
-    myqlable.cpp \
-    chatemotion.cpp \
-    frame.cpp
+SOURCES += source/main.cpp\
+        source/mainwindow.cpp \
+    source/textedit.cpp \
+    source/glabel.cpp \
+    source/myqlable.cpp \
+    source/chatemotion.cpp \
+    source/frame.cpp
 
-HEADERS  += mainwindow.h \
-    textedit.h \
-    glabel.h \
-    myqlable.h \
-    chatemotion.h \
-    frame.h
+HEADERS  += header/mainwindow.h \
+    header/textedit.h \
+    header/glabel.h \
+    header/myqlable.h \
+    header/chatemotion.h \
+    header/frame.h
 
-FORMS    += mainwindow.ui \
-    chatemotion.ui
+FORMS    += UI/mainwindow.ui \
+    UI/chatemotion.ui
 
-RESOURCES += \
-    res.qrc
+RESOURCES += resource/res.qrc\
