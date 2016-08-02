@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chatEmotion</class>
+ <widget class="QWidget" name="chatEmotion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>377</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-20</y>
+     <width>371</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="default_faces">
+    <attribute name="title">
+     <string>默认表情</string>
+    </attribute>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>381</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="myQLabel" name="label_8">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/8.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_7">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/7.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_6">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/6.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_5">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/5.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_4">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/4.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_3">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/3.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_2">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/2.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/1.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>381</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="myQLabel" name="label_11">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/11.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_16">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/16.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_15">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/15.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_14">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/14.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_13">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/13.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_12">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/12.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_10">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/10.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_9">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/9.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>381</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="myQLabel" name="label_20">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/20.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_22">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/22.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_24">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/24.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_23">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/23.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_21">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/21.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_19">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/19.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_18">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/18.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_17">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/17.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>381</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="myQLabel" name="label_27">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/27.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_32">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/32.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_31">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/31.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_30">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/30.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_29">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/29.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_28">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/28.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_26">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/26.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="myQLabel" name="label_25">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>:/imqface/25.gif</pixmap>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="sdefine_faces">
+    <attribute name="title">
+     <string>自定义</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>myQLabel</class>
+   <extends>QLabel</extends>
+   <header>myQlable.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
